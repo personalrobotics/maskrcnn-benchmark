@@ -15,25 +15,29 @@ class DatasetCatalog(object):
         #     "img_dir": "coco/val2017",
         #     "ann_file": "coco/annotations/instances_val2017.json"
         # },
-        "coco_2014_train": {
-            "img_dir": "/home/guohaz/external/coco_dataset/images/train2014/",
-            "ann_file": "/home/guohaz/external/coco_dataset/annotations/train_val14/instances_train2014.json"
-        },
-        "coco_2014_val": {
-            "img_dir": "/home/guohaz/external/coco_dataset/images/val2014/",
-            "ann_file": "/home/guohaz/external/coco_dataset/annotations/train_val14/instances_val2014.json"
-        },
-        "coco_2014_minival": {
-            "img_dir": "/home/guohaz/external/coco_dataset/images/val2014/",
-            "ann_file": "/home/guohaz/external/coco_dataset/annotations/train_val14/instances_val2014.json"
-        },
-        "coco_2014_valminusminival": {
-            "img_dir": "/home/guohaz/external/coco_dataset/images/val2014/",
-            "ann_file": "/home/guohaz/external/coco_dataset/annotations/train_val14/instances_val2014.json"
-        },
+        # "coco_2014_train": {
+        #     "img_dir": "/home/guohaz/external/coco_dataset/images/train2014/",
+        #     "ann_file": "/home/guohaz/external/coco_dataset/annotations/train_val14/instances_train2014.json"
+        # },
+        # "coco_2014_val": {
+        #     "img_dir": "/home/guohaz/external/coco_dataset/images/val2014/",
+        #     "ann_file": "/home/guohaz/external/coco_dataset/annotations/train_val14/instances_val2014.json"
+        # },
+        # "coco_2014_minival": {
+        #     "img_dir": "/home/guohaz/external/coco_dataset/images/val2014/",
+        #     "ann_file": "/home/guohaz/external/coco_dataset/annotations/train_val14/instances_val2014.json"
+        # },
+        # "coco_2014_valminusminival": {
+        #     "img_dir": "/home/guohaz/external/coco_dataset/images/val2014/",
+        #     "ann_file": "/home/guohaz/external/coco_dataset/annotations/train_val14/instances_val2014.json"
+        # },
          "food_train": {
-            "img_dir": "/home/guohaz/maskrcnn/maskrcnn-benchmark/datasets/food/potato",
+            "img_dir": "/home/guohaz/maskrcnn/maskrcnn-benchmark/datasets/food/potato_train",
             "ann_file": "/home/guohaz/maskrcnn/maskrcnn-benchmark/datasets/food/potato/annotations/food_train.json"
+        },
+        "food_val": {
+            "img_dir": "/home/guohaz/maskrcnn/maskrcnn-benchmark/datasets/food/potato_val",
+            "ann_file": "/home/guohaz/maskrcnn/maskrcnn-benchmark/datasets/food/potato/annotations/food_val.json"
         },
         # "keypoints_coco_2014_train": {
         #     "img_dir": "coco/train2014",
